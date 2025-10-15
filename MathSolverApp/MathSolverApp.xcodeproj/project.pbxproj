@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+5B1F0B7C2B6B5C6400A1FDEF /* MathSolverAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F0B6F2B6B5C6400A1FDEF /* MathSolverAppApp.swift */; };
+5B1F0B7D2B6B5C6400A1FDEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F0B702B6B5C6400A1FDEF /* ContentView.swift */; };
+5B1F0B7E2B6B5C6400A1FDEF /* SolverStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F0B712B6B5C6400A1FDEF /* SolverStore.swift */; };
+5B1F0B7F2B6B5C6400A1FDEF /* MathRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F0B722B6B5C6400A1FDEF /* MathRecognizer.swift */; };
+5B1F0B802B6B5C6400A1FDEF /* ImageCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F0B732B6B5C6400A1FDEF /* ImageCapture.swift */; };
+5B1F0B812B6B5C6400A1FDEF /* MathExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F0B742B6B5C6400A1FDEF /* MathExpression.swift */; };
+5B1F0B822B6B5C6400A1FDEF /* MathExpressionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F0B752B6B5C6400A1FDEF /* MathExpressionParser.swift */; };
+5B1F0B832B6B5C6400A1FDEF /* MathSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F0B762B6B5C6400A1FDEF /* MathSolver.swift */; };
+5B1F0B852B6B5C6400A1FDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1F0B782B6B5C6400A1FDEF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+5B1F0B6C2B6B5C6400A1FDEF /* MathSolverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathSolverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+5B1F0B6F2B6B5C6400A1FDEF /* MathSolverAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathSolverAppApp.swift; sourceTree = "<group>"; };
+5B1F0B702B6B5C6400A1FDEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+5B1F0B712B6B5C6400A1FDEF /* SolverStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolverStore.swift; sourceTree = "<group>"; };
+5B1F0B722B6B5C6400A1FDEF /* MathRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathRecognizer.swift; sourceTree = "<group>"; };
+5B1F0B732B6B5C6400A1FDEF /* ImageCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCapture.swift; sourceTree = "<group>"; };
+5B1F0B742B6B5C6400A1FDEF /* MathExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExpression.swift; sourceTree = "<group>"; };
+5B1F0B752B6B5C6400A1FDEF /* MathExpressionParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExpressionParser.swift; sourceTree = "<group>"; };
+5B1F0B762B6B5C6400A1FDEF /* MathSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathSolver.swift; sourceTree = "<group>"; };
+5B1F0B772B6B5C6400A1FDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+5B1F0B782B6B5C6400A1FDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+5B1F0B692B6B5C6400A1FDEF /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+5B1F0B642B6B5C6400A1FDEF = {
+isa = PBXGroup;
+children = (
+5B1F0B772B6B5C6400A1FDEF /* Info.plist */,
+5B1F0B782B6B5C6400A1FDEF /* Assets.xcassets */,
+5B1F0B6E2B6B5C6400A1FDEF /* MathSolverApp */,
+5B1F0B6D2B6B5C6400A1FDEF /* Products */,
+);
+sourceTree = "<group>";
+};
+5B1F0B6D2B6B5C6400A1FDEF /* Products */ = {
+isa = PBXGroup;
+children = (
+5B1F0B6C2B6B5C6400A1FDEF /* MathSolverApp.app */,
+);
+sourceTree = "<group>";
+};
+5B1F0B6E2B6B5C6400A1FDEF /* MathSolverApp */ = {
+isa = PBXGroup;
+children = (
+5B1F0B6F2B6B5C6400A1FDEF /* MathSolverAppApp.swift */,
+5B1F0B702B6B5C6400A1FDEF /* ContentView.swift */,
+5B1F0B712B6B5C6400A1FDEF /* SolverStore.swift */,
+5B1F0B722B6B5C6400A1FDEF /* MathRecognizer.swift */,
+5B1F0B732B6B5C6400A1FDEF /* ImageCapture.swift */,
+5B1F0B742B6B5C6400A1FDEF /* MathExpression.swift */,
+5B1F0B752B6B5C6400A1FDEF /* MathExpressionParser.swift */,
+5B1F0B762B6B5C6400A1FDEF /* MathSolver.swift */,
+);
+path = MathSolverApp;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+5B1F0B6B2B6B5C6400A1FDEF /* MathSolverApp */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 5B1F0B7B2B6B5C6400A1FDEF /* Build configuration list for PBXNativeTarget "MathSolverApp" */;
+buildPhases = (
+5B1F0B682B6B5C6400A1FDEF /* Sources */,
+5B1F0B692B6B5C6400A1FDEF /* Frameworks */,
+5B1F0B6A2B6B5C6400A1FDEF /* Resources */,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = MathSolverApp;
+productName = MathSolverApp;
+productReference = 5B1F0B6C2B6B5C6400A1FDEF /* MathSolverApp.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+5B1F0B652B6B5C6400A1FDEF /* Project object */ = {
+isa = PBXProject;
+attributes = {
+LastSwiftUpdateCheck = 1600;
+LastUpgradeCheck = 1600;
+TargetAttributes = {
+5B1F0B6B2B6B5C6400A1FDEF = {
+CreatedOnToolsVersion = 16.0;
+};
+};
+};
+buildConfigurationList = 5B1F0B662B6B5C6400A1FDEF /* Build configuration list for PBXProject "MathSolverApp" */;
+compatibilityVersion = "Xcode 14.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+);
+mainGroup = 5B1F0B642B6B5C6400A1FDEF;
+productRefGroup = 5B1F0B6D2B6B5C6400A1FDEF /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+5B1F0B6B2B6B5C6400A1FDEF /* MathSolverApp */,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+5B1F0B6A2B6B5C6400A1FDEF /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+5B1F0B852B6B5C6400A1FDEF /* Assets.xcassets in Resources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+5B1F0B682B6B5C6400A1FDEF /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+5B1F0B832B6B5C6400A1FDEF /* MathSolver.swift in Sources */,
+5B1F0B822B6B5C6400A1FDEF /* MathExpressionParser.swift in Sources */,
+5B1F0B812B6B5C6400A1FDEF /* MathExpression.swift in Sources */,
+5B1F0B802B6B5C6400A1FDEF /* ImageCapture.swift in Sources */,
+5B1F0B7F2B6B5C6400A1FDEF /* MathRecognizer.swift in Sources */,
+5B1F0B7E2B6B5C6400A1FDEF /* SolverStore.swift in Sources */,
+5B1F0B7D2B6B5C6400A1FDEF /* ContentView.swift in Sources */,
+5B1F0B7C2B6B5C6400A1FDEF /* MathSolverAppApp.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+5B1F0B792B6B5C6400A1FDEF /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CODE_SIGN_STYLE = Automatic;
+DEBUG_INFORMATION_FORMAT = dwarf;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+ENABLE_TESTABILITY = YES;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+ONLY_ACTIVE_ARCH = YES;
+SDKROOT = iphoneos;
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+};
+name = Debug;
+};
+5B1F0B7A2B6B5C6400A1FDEF /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CODE_SIGN_STYLE = Automatic;
+DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ENABLE_NS_ASSERTIONS = NO;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+GCC_C_LANGUAGE_STANDARD = gnu11;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+MTL_ENABLE_DEBUG_INFO = NO;
+SDKROOT = iphoneos;
+SWIFT_COMPILATION_MODE = wholemodule;
+SWIFT_OPTIMIZATION_LEVEL = "-O";
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Release;
+};
+5B1F0B7F2B6B5C6400A1FDEE /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = "";
+GENERATE_INFOPLIST_FILE = NO;
+INFOPLIST_FILE = MathSolverApp/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+LD_RUNPATH_SEARCH_PATHS = (
+"$(inherited)",
+"@executable_path/Frameworks",
+);
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.codex.MathSolverApp;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Debug;
+};
+5B1F0B802B6B5C6400A1FDEE /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+DEVELOPMENT_TEAM = "";
+GENERATE_INFOPLIST_FILE = NO;
+INFOPLIST_FILE = MathSolverApp/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+LD_RUNPATH_SEARCH_PATHS = (
+"$(inherited)",
+"@executable_path/Frameworks",
+);
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.codex.MathSolverApp;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+5B1F0B662B6B5C6400A1FDEF /* Build configuration list for PBXProject "MathSolverApp" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+5B1F0B792B6B5C6400A1FDEF /* Debug */,
+5B1F0B7A2B6B5C6400A1FDEF /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+5B1F0B7B2B6B5C6400A1FDEF /* Build configuration list for PBXNativeTarget "MathSolverApp" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+5B1F0B7F2B6B5C6400A1FDEE /* Debug */,
+5B1F0B802B6B5C6400A1FDEE /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+};
+rootObject = 5B1F0B652B6B5C6400A1FDEF /* Project object */;
+}
