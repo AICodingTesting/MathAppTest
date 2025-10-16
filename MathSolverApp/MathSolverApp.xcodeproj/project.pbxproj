@@ -78,13 +78,14 @@ sourceTree = "<group>";
 
 /* Begin PBXNativeTarget section */
 5B1F0B6B2B6B5C6400A1FDEF /* MathSolverApp */ = {
-isa = PBXNativeTarget;
-buildConfigurationList = 5B1F0B7B2B6B5C6400A1FDEF /* Build configuration list for PBXNativeTarget "MathSolverApp" */;
-buildPhases = (
-5B1F0B682B6B5C6400A1FDEF /* Sources */,
-5B1F0B692B6B5C6400A1FDEF /* Frameworks */,
-5B1F0B6A2B6B5C6400A1FDEF /* Resources */,
-);
+    isa = PBXNativeTarget;
+    buildConfigurationList = 5B1F0B7B2B6B5C6400A1FDEF /* Build configuration list for PBXNativeTarget "MathSolverApp" */;
+    buildPhases = (
+        FA8F6A4C2C0BD5F600A0C3F1 /* Generate App Icon PNGs */, 
+        5B1F0B682B6B5C6400A1FDEF /* Sources */,
+        5B1F0B692B6B5C6400A1FDEF /* Frameworks */,
+        5B1F0B6A2B6B5C6400A1FDEF /* Resources */,
+    );
 buildRules = (
 );
 dependencies = (
@@ -334,3 +335,38 @@ defaultConfigurationName = Release;
 };
 rootObject = 5B1F0B652B6B5C6400A1FDEF /* Project object */;
 }
+/* Begin PBXShellScriptBuildPhase section */
+    FA8F6A4C2C0BD5F600A0C3F1 /* Generate App Icon PNGs */ = {
+        isa = PBXShellScriptBuildPhase;
+        buildActionMask = 2147483647;
+        files = (
+        );
+        inputPaths = (
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Contents.json",
+            "$(PROJECT_DIR)/DesignAssets/AppIcon.svg",
+            "$(PROJECT_DIR)/DesignAssets/export_app_icon_pngs.sh",
+        );
+        name = "Generate App Icon PNGs";
+        outputPaths = (
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+            "$(PROJECT_DIR)/MathSolverApp/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+        );
+        runOnlyForDeploymentPostprocessing = 0;
+        shellPath = /bin/bash;
+        shellScript = "set -euo pipefail\n\"${PROJECT_DIR}/DesignAssets/export_app_icon_pngs.sh\" \"${PROJECT_DIR}/DesignAssets/AppIcon.svg\" \"${PROJECT_DIR}/MathSolverApp/Assets.xcassets/AppIcon.appiconset\"\n";
+    };
+/* End PBXShellScriptBuildPhase section */
+
