@@ -29,6 +29,9 @@ objects = {
 5B1F0B762B6B5C6400A1FDEF /* MathSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathSolver.swift; sourceTree = "<group>"; };
 5B1F0B772B6B5C6400A1FDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 5B1F0B782B6B5C6400A1FDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+FA8F6A4D2C0BD5F600A0C3F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+FA8F6A4E2C0BD5F600A0C3F1 /* export_app_icon_pngs.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = export_app_icon_pngs.sh; sourceTree = "<group>"; };
+FA8F6A4F2C0BD5F600A0C3F1 /* AppIcon.svg */ = {isa = PBXFileReference; lastKnownFileType = image.svg; path = AppIcon.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +48,11 @@ runOnlyForDeploymentPostprocessing = 0;
 5B1F0B642B6B5C6400A1FDEF = {
 isa = PBXGroup;
 children = (
-5B1F0B772B6B5C6400A1FDEF /* Info.plist */,
-5B1F0B782B6B5C6400A1FDEF /* Assets.xcassets */,
-5B1F0B6E2B6B5C6400A1FDEF /* MathSolverApp */,
-5B1F0B6D2B6B5C6400A1FDEF /* Products */,
+        5B1F0B772B6B5C6400A1FDEF /* Info.plist */,
+        5B1F0B782B6B5C6400A1FDEF /* Assets.xcassets */,
+        FA8F6A502C0BD5F600A0C3F1 /* DesignAssets */,
+        5B1F0B6E2B6B5C6400A1FDEF /* MathSolverApp */,
+        5B1F0B6D2B6B5C6400A1FDEF /* Products */,
 );
 sourceTree = "<group>";
 };
@@ -60,19 +64,29 @@ children = (
 sourceTree = "<group>";
 };
 5B1F0B6E2B6B5C6400A1FDEF /* MathSolverApp */ = {
-isa = PBXGroup;
-children = (
-5B1F0B6F2B6B5C6400A1FDEF /* MathSolverAppApp.swift */,
-5B1F0B702B6B5C6400A1FDEF /* ContentView.swift */,
+    isa = PBXGroup;
+    children = (
+        5B1F0B6F2B6B5C6400A1FDEF /* MathSolverAppApp.swift */,
+        5B1F0B702B6B5C6400A1FDEF /* ContentView.swift */,
 5B1F0B712B6B5C6400A1FDEF /* SolverStore.swift */,
 5B1F0B722B6B5C6400A1FDEF /* MathRecognizer.swift */,
 5B1F0B732B6B5C6400A1FDEF /* ImageCapture.swift */,
 5B1F0B742B6B5C6400A1FDEF /* MathExpression.swift */,
 5B1F0B752B6B5C6400A1FDEF /* MathExpressionParser.swift */,
-5B1F0B762B6B5C6400A1FDEF /* MathSolver.swift */,
-);
-path = MathSolverApp;
-sourceTree = "<group>";
+        5B1F0B762B6B5C6400A1FDEF /* MathSolver.swift */,
+    );
+    path = MathSolverApp;
+    sourceTree = "<group>";
+};
+FA8F6A502C0BD5F600A0C3F1 /* DesignAssets */ = {
+    isa = PBXGroup;
+    children = (
+        FA8F6A4F2C0BD5F600A0C3F1 /* AppIcon.svg */,
+        FA8F6A4E2C0BD5F600A0C3F1 /* export_app_icon_pngs.sh */,
+        FA8F6A4D2C0BD5F600A0C3F1 /* README.md */,
+    );
+    path = DesignAssets;
+    sourceTree = "<group>";
 };
 /* End PBXGroup section */
 
